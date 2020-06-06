@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <!--====== Custom Css ======-->
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style_card.css"> -->
+
+    <!--====== BootStrap Css ======-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <!--======== Top Border Start ========-->
+    <div class="container-fluid txt-bd" style="height: 40px;">
+        <p>----</p>
+    </div>
+
+
+
+    <!--======== NavBar Start ========-->
+    <div id="top" class="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">New Collections</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="mr-auto"></div>
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <div class="mr-5"></div>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Mens
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li>
+                                <a class="dropdown-item" href="./Mens/Shirts/index.html">Shirts</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="./Mens/Pents/index.html">Pents</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="./Mens/Kurtay/index.html">Kurtay</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <div class="mr-5"></div>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Womens
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li>
+                                <a class="dropdown-item" href="./Womens/Schedule_Suits/index.html">Schedule Suits</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="./Womens/Branded_Suits/index.html">Branded Suits</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="./Womens/Wedding_Suits/index.html">Wedding Suits</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <div class="mr-5"></div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#footer">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    <i class="fas fa-shopping-cart fa-2x ml-2"></i>
+                </form>
+            </div>
+        </nav>
+    </div>
+
+
+
+
+
+
+    <!--======== Slider 1 Start ========-->
+
+    <div class="mb-5">
+        <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-interval="2000">
+                    <img src="./Banners/Banners1.jpg" class="d-block w-100" alt="Banner">
+                </div>
+                <div class="carousel-item" data-interval="2000">
+                    <img src="./Banners/Banners2.jpg" class="d-block w-100" alt="Banner">
+                </div>
+                <div class="carousel-item" data-interval="2000">
+                    <img src="./Banners/Banners3.jpg" class="d-block w-100" alt="Banner">
+                </div>
+                <!-- <div class="carousel-item active" data-interval="2000">
+                    <img src="./Banners/Banners4.jpg" class="d-block w-100" alt="Banner">
+                </div> -->
+                <!-- <div class="carousel-item active" data-interval="2000">
+                    <img src="./Banners/Banners5.jpg" class="d-block w-100" alt="Banner">
+                </div> -->
+                <!-- <div class="carousel-item active" data-interval="2000">
+                    <img src="./Banners/Banners6.jpg" class="d-block w-100" alt="Banner">
+                </div> -->
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+
+
+
+    <!--======== Image Slider ========-->
+
+    <div class="text-center mb-5">
+        <marquee behavior="scroll" scrollamount="15" direction="left">
+            <img src="./Banners/image1.jpg" class="img-fluid rounded" alt="Offer">
+        </marquee>
+    </div>
+
+
+
+
+    <!--======== Arrow ========-->
+
+    <!-- <div class="arrow">
+        <a href="#top">
+            <span><i class="fas fa-sort-up fa-7x"></i></span>
+        </a>
+    </div> -->
+
+    <!--======== Collection Section ========-->
+
+
+    <section>
+        <div class="container">
+            <div class="border-top border-info">
+                <p></p>
+            </div>
+            <div class="text-col">
+                <marquee behavior="alternate" scrollamount="5" direction="left">
+                    <h2>Mens Collections</h2>
+                </marquee>
+            </div>
+            <div class="border-bottom border-info">
+                <p></p>
+            </div>
+            <div class=" row">
+                <div class="crd-cl col-md-3 col-6">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./Collections/Shirts.jpg" class="card-img-top" alt="shirts">
+                        <div class="card-body">
+                            <h4 class="card-title">Shirts</h4>
+                            <p class="card-text">Our Products Are Quality Ensure Products</p>
+                            <a href="./Mens/Shirts/index.html" class="btn btn-primary">See More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="crd-cl col-md-3 col-6">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./Collections/T_Shirts.jpg" class="card-img-top" alt="T_Shirts">
+                        <div class="card-body">
+                            <h4 class="card-title">T Shirts</h4>
+                            <p class="card-text">Our Products Are Quality Ensure Products</p>
+                            <a href="./Mens/Shirts/index.html" class="btn btn-primary">See More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="crd-cl col-md-3 col-6">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./Collections/Kurta.jpg" class="card-img-top" alt="Kurta">
+                        <div class="card-body">
+                            <h4 class="card-title">Kurtay</h4>
+                            <p class="card-text">Our Products Are Quality Ensure Products</p>
+                            <a href="./Mens/Kurtay/index.html" class="btn btn-primary">See More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="crd-cl col-md-3 col-6">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./Collections/jeans.jpg" class="card-img-top" alt="jeans">
+                        <div class="card-body">
+                            <h4 class="card-title">Jeans</h4>
+                            <p class="card-text">Our Products Are Quality Ensure Products</p>
+                            <a href="./Mens/Pents/index.html" class="btn btn-primary">See More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="crd-cl col-md-3 col-6">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./Collections/Dress_Pents.jpg" class="card-img-top" alt="Dress_Pents">
+                        <div class="card-body">
+                            <h4 class="card-title">Dress Pents</h4>
+                            <p class="card-text">Our Products Are Quality Ensure Products</p>
+                            <a href="./Mens/Pents/index.html" class="btn btn-primary">See More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section>
+        <div class="container mt-5">
+            <div class="border-top border-info">
+                <p></p>
+            </div>
+            <div class="text-col">
+                <marquee behavior="alternate" scrollamount="5" direction="left">
+                    <h2>Womens Collections</h2>
+                </marquee>
+            </div>
+            <div class="border-bottom border-info">
+                <p></p>
+            </div>
+            <div class=" row">
+                <div class="crd-cl col-md-3 col-6">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./Collections/Wedding_Suits.jpg" class="card-img-top" alt="Wedding_Suits">
+                        <div class="card-body">
+                            <h4 class="card-title">Wedding Suits</h4>
+                            <p class="card-text">Our Products Are Quality Ensure Products</p>
+                            <a href="./Womens/Wedding_Suits/index.html" class="btn btn-primary">See More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="crd-cl col-md-3 col-6">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./Collections/Branded_Suits.jpg" class="card-img-top" alt="Branded_Suits">
+                        <div class="card-body">
+                            <h4 class="card-title">Branded Suits</h4>
+                            <p class="card-text">Our Products Are Quality Ensure Products</p>
+                            <a href="./Womens/Branded_Suits/index.html" class="btn btn-primary">See More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="crd-cl col-md-3 col-6">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./Collections/Schdule_Suits.jpg" class="card-img-top" alt="Schedule_Suits">
+                        <div class="card-body">
+                            <h4 class="card-title">Schedule Suits</h4>
+                            <p class="card-text">Our Products Are Quality Ensure Products</p>
+                            <a href="./Womens/Schedule_Suits/index.html" class="btn btn-primary">See More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="mt-auto"></div>
+
+    <!--======== Footer Start ========-->
+    <footer id="footer">
+        <div class="container-fluid" style="background-image: linear-gradient(to right, #21D4FD 0%, #B721FF 100%);">
+            <div class="pb-3 pt-3">
+                <div class="row">
+                    <div class="col-sm-12 col-md-5">
+                        <div class="con-tact">
+                            <h4>Contact Us</h4>
+                            <ul>
+                                <li>
+                                    <a title="Call & SMS">
+                                        <i class="fas fa-phone-square-alt fa-lg"><span>0322-3457560</span></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a title="Whatsapp">
+                                        <i class="fab fa-whatsapp-square fa-lg"><span>0322-3457560</span></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a title="Email">
+                                        <i class="fas fa-envelope-square fa-lg"><span>Zeeshanm7717@gmail.com</span></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.facebook.com/zsn97" title="Facebook" target="_blank">
+                                        <i class="fab fa-facebook-square fa-lg"><span>Zeeshan Muhammad</span></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a title="Location">
+                                        <i class="fas fa-map-marker-alt fa-lg"><span>Karachi, Pakistan</span></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-5">
+                        <div class="ft-div">
+                            <div class=" ft-ad">
+                                <div><i class="fas fa-truck"></i></div>
+                                <div><span>Free Delivery</span></div>
+                            </div>
+                            <div class="mt-3 ft-ad">
+                                <div><i class="fas fa-headset"></i></div>
+                                <div><span>24/7 Support</span></div>
+                            </div>
+                            <div class="mt-3 ft-ad">
+                                <div><i class="fab fa-btc"></i></div>
+                                <div><span>Best Quality</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-0 col-md-2">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <!--======== Bottom Border Start ========-->
+    <div class="container-fluid txt-bd" style="height: 40px;">
+        <p>----</p>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ========FONTS Script========= -->
+    <script src="https://kit.fontawesome.com/4977eead0f.js" crossorigin="anonymous"></script>
+
+
+
+    <!--====== JavaScript Link ======-->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
